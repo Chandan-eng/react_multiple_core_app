@@ -44,6 +44,7 @@ import Student from './components/Student';
 import Otp from './components/Otp';
 import ImageUpload from './components/ImageUpload';
 import EventCapturing from './EventCapturing/EventCapturing';
+import EventBubblingDemo from './EventBubbling/EventBubbling';
 
 const isAuth=true;
 
@@ -102,7 +103,8 @@ function App() {
 {/* <Student/> */}
 {/* <Otp/> */}
 {/* <ImageUpload/> */}
-<EventCapturing />
+{/* <EventCapturing /> */}
+<EventBubblingDemo/>
     {/* <UseReduxToolkit/> */}
     {/* <UseThrottle/> */}
 
