@@ -43,6 +43,7 @@ import store from './components/Redux/store';
 import Student from './components/Student';
 import Otp from './components/Otp';
 import ImageUpload from './components/ImageUpload';
+import EventCapturing from './EventCapturing/EventCapturing';
 
 const isAuth=true;
 
@@ -100,7 +101,8 @@ function App() {
 {/* <UseMemoExam/> */}
 {/* <Student/> */}
 {/* <Otp/> */}
-<ImageUpload/>
+{/* <ImageUpload/> */}
+<EventCapturing />
     {/* <UseReduxToolkit/> */}
     {/* <UseThrottle/> */}
 
